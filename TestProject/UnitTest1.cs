@@ -36,7 +36,7 @@ namespace TestProject
 		{
 			bool expected = true;
 			var af = new Tests();
-			bool actual = af.check("898989");
+			bool actual = af.check("89");
 			Assert.AreEqual(expected, actual);
 		}
 		[TestMethod]
